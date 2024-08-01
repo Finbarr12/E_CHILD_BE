@@ -1,0 +1,26 @@
+{
+  "name": "e-childbe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.ts",
+    "build":"tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/speech": "^6.6.1",
+    "@google-cloud/text-to-speech": "^5.3.0",
+    "@google/generative-ai": "^0.14.1",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2"
+  }
+}
