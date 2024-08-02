@@ -13,6 +13,7 @@ const childSchema = new mongoose_1.Schema({
     email: {
         type: String,
         required: true,
+        unique: true,
     },
     password: {
         type: String,
